@@ -13,7 +13,7 @@
 		897A7253274C289B0097121A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897A7252274C289B0097121A /* Preview Assets.xcassets */; };
 		897A725A274C29870097121A /* ContactsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A7259274C29870097121A /* ContactsScreen.swift */; };
 		897A725C274C29EC0097121A /* NumbersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A725B274C29EC0097121A /* NumbersScreen.swift */; };
-		89971C49274C35DD00425027 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89971C48274C35DD00425027 /* Contact.swift */; };
+		89971C49274C35DD00425027 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89971C48274C35DD00425027 /* Person.swift */; };
 		89971C4B274C365E00425027 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89971C4A274C365E00425027 /* DataManager.swift */; };
 		89B841B4274D793D0007DD48 /* ExtraInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B841B3274D793D0007DD48 /* ExtraInfo.swift */; };
 		89D51B40274D5DA9007ACBB3 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D51B3F274D5DA9007ACBB3 /* ContactInfo.swift */; };
@@ -27,7 +27,7 @@
 		897A7252274C289B0097121A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		897A7259274C29870097121A /* ContactsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsScreen.swift; sourceTree = "<group>"; };
 		897A725B274C29EC0097121A /* NumbersScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersScreen.swift; sourceTree = "<group>"; };
-		89971C48274C35DD00425027 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		89971C48274C35DD00425027 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		89971C4A274C365E00425027 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		89B841B3274D793D0007DD48 /* ExtraInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraInfo.swift; sourceTree = "<group>"; };
 		89D51B3F274D5DA9007ACBB3 /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			children = (
 				89B841B3274D793D0007DD48 /* ExtraInfo.swift */,
 				897A724B274C289A0097121A /* ContactListApp.swift */,
-				89971C48274C35DD00425027 /* Contact.swift */,
+				89971C48274C35DD00425027 /* Person.swift */,
 				89971C4A274C365E00425027 /* DataManager.swift */,
 				897A725B274C29EC0097121A /* NumbersScreen.swift */,
 				897A724D274C289A0097121A /* ContentView.swift */,
@@ -159,7 +159,7 @@
 				89971C4B274C365E00425027 /* DataManager.swift in Sources */,
 				89B841B4274D793D0007DD48 /* ExtraInfo.swift in Sources */,
 				897A724E274C289A0097121A /* ContentView.swift in Sources */,
-				89971C49274C35DD00425027 /* Contact.swift in Sources */,
+				89971C49274C35DD00425027 /* Person.swift in Sources */,
 				897A725C274C29EC0097121A /* NumbersScreen.swift in Sources */,
 				897A724C274C289A0097121A /* ContactListApp.swift in Sources */,
 				89D51B40274D5DA9007ACBB3 /* ContactInfo.swift in Sources */,

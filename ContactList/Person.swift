@@ -30,14 +30,14 @@ extension Person {
         let phoneNumbers = DataManager.shared.phoneNumbers.shuffled()
         
         for counter in 0 ... names.count - 1 {
-            let employee = Person(
+            let person = Person(
                 id: counter,
                 name: names[counter],
                 surname: surnames[counter],
                 email: emails[counter],
                 phoneNumber: phoneNumbers[counter]
             )
-            persons.append(employee)
+            persons.append(person)
         }
         return persons
     }
