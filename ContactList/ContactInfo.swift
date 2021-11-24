@@ -22,10 +22,8 @@ struct ContactInfo: View {
             ExtraInfo(person: person)
         }
         .navigationTitle(person.fullName)
-        
     }
 }
-
 
 //struct ContactInfo_Previews: PreviewProvider {
 //    static var previews: some View {
