@@ -12,9 +12,10 @@ struct NumbersScreen: View {
     var body: some View {
         NavigationView {
             List(persons) {person in
-                Section(header: Text("\(person.fullName)"))
+                Section(header: Text(person.fullName))
                 {
-                    ExtraInfo(person: person)
+                    Label(person.phoneNumber, systemImage: "phone")
+                    Label(person.email, systemImage: "tray")
                 }
             }
             .navigationBarTitle("Contact list")

@@ -19,12 +19,14 @@ struct ContactInfo: View {
                 Spacer()
             }
             .padding()
-            ExtraInfo(person: person)
+            
+            Label(person.phoneNumber, systemImage: "phone")
+            Label(person.email, systemImage: "tray")
         }
         .navigationTitle(person.fullName)
     }
 }
-
+//
 //struct ContactInfo_Previews: PreviewProvider {
 //    static var previews: some View {
 //        ContactInfo(person: person)
